@@ -1,7 +1,7 @@
 {
   "name": "Jex",
   "scripts": {
-    "start": "npx openclaw gateway --port $PORT"
+    "start": "npx openclaw gateway --port $PORT --allow-unconfigured"
   },
   "dependencies": {
     "openclaw": "latest"
