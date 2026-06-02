@@ -1,7 +1,7 @@
 {
   "name": "Jex",
   "scripts": {
-    "start": "npx openclaw gateway --port $PORT --allow-unconfigured"
+    "start": "npx openclaw gateway --port $PORT --allow-unconfigured --model google/gemini-2.5-pro"
   },
   "dependencies": {
     "openclaw": "latest"
