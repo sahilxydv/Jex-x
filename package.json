@@ -1,0 +1,9 @@
+{
+  "name": "Jex",
+  "scripts": {
+    "start": "npx openclaw gateway --port $PORT"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
